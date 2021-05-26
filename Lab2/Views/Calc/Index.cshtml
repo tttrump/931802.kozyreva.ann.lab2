@@ -1,0 +1,10 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+<h1>Form parameters parsing demo</h1>
+<ul>
+    <li><a asp-controller="Calc" asp-action="Manual">Manual parsing in single action</a></li>
+    <li><a asp-controller="Calc" asp-action="ManualWithSeparateHandlers">Manual parsing in separate actions</a></li>
+    <li><a asp-controller="Calc" asp-action="ModelBindingInParameters">Model binding (parameters)</a></li>
+    <li><a asp-controller="Calc" asp-action="ModelBindingInSeparateModel">Model binding (separate model)</a></li>
+</ul>
